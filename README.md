@@ -24,8 +24,7 @@ project_root/
 
 ## 🔁 Diagrama de Flujo del Proceso
 
-```mermaid
-graph TD
+```
     A[Inicio] --> B[Descarga de PDF desde Drive]
     B --> C[Extracción de documentos con expresiones regulares]
     C --> D[Limpieza del texto (pies de página, encabezados)]
